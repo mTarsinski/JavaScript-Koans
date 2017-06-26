@@ -16,7 +16,7 @@ Mammal.prototype = {
 
 test("defining a 'class'", function() {
     var eric  = new Mammal("Eric");
-    equal(__, eric.sayHi(), 'what will Eric say?');
+    equal("Hello, my name is Eric", eric.sayHi(), 'what will Eric say?');
 });
 
 // add another function to the Mammal 'type' that uses the sayHi function
